@@ -1,0 +1,29 @@
+U ovom zadatku cemo napraviti `Rock Paper Scissors` igricu.
+
+Kada otvorite web stranicu, primjetiti cete spomenute tri opcije (id-evi su `rockCard`, `paperCard` i `scissorsCard`).
+Ispod toga primjetite heading `Computer` te ispod njega div sa id-em `computersChoice`. U ovom `computersChoice` divu je plan da bude prikazana random izgenerirana opcija koja predstavlja izabranu opciju racunara (rock, paper ili scissors).
+
+Kada god korisnik klikne/odabere neku od spomenute tri opcije (id-evi su `rockCard`, `paperCard` i `scissorsCard`), program treba da izgenerira random opciju za racunar u div-u `computersChoice` (prikazati sliku i tekst opcije. Sve slike imate u images folderu). Nakon sto ste izgenerirali random opciju za racunar, u div-u sa id-em `winner` trebate ispisati ko je pobjedio:
+- Ako je pobjedio korisnik, ispisati zelenim slovima `User wins`
+- Ako je pobjedio racunar, ispisati crvenim slovima `Computer wins`
+- Ako je nerijeseno, ispisati crnim slovima `No one wins`
+
+Istovremeno, u div-u sa id-em `score`, treba da se prikazuje trenutni ostvareni rezultat. Svaki put kada korisnik pobijedi, rezultat se uvecava za jedan, inace se umanjuje za jedan bod.
+
+Klikom na dugme `Restart` treba da se resetira igra ispocetke (Bodovi se setuju na nulu, te nema trenutno odabrane opcije racunara - u tom slucaju kao sliku mozete postaviti `images/default.png`. Takodjer u div-u sa id-em `winner` ne treba nista da pise.)
+
+//English translation
+
+In this task we will make a ``Rock Paper Scissors'' game.
+
+When you open the website, you will notice the three options mentioned (the ids are `rockCard`, `paperCard` and `scissorsCard`).
+Below that, notice the heading `Computer' and below it a div with the id `computersChoice'. In this `computersChoice' div, the plan is to display a randomly generated option that represents the selected computer option (rock, paper or scissors).
+
+Whenever the user clicks/selects one of the mentioned three options (id's are `rockCard`, `paperCard` and `scissorsCard`), the program should generate a random option for the computer in the `computersChoice` div (display the image and text of the option You have all the images in the images folder). After you have generated the random option for the computer, in the div with the id `winner' you need to write who won:
+- If the user won, write `User wins' in green letters
+- If the computer won, write `Computer wins' in red letters
+- If it is tied, write ``No one wins'' in black letters
+
+At the same time, in the div with the id `score`, the current achieved result should be displayed. Each time the user wins, the score is increased by one, otherwise it is decreased by one point.
+
+Clicking on the ``Restart'' button should reset the game from the beginning (Points are set to zero, and there is no currently selected computer option - in that case, you can set `images/default.png' as an image. Also in the div with the id ``winner'' does not need to be written.)

@@ -1,0 +1,26 @@
+body{
+    margin: 10px;
+}
+
+.btn-add{
+    float:right;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 10rem!important;
+    width: 10rem!important;
+}
+
+#score {
+    color:#94dc26;
+}
